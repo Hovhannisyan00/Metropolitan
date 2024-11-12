@@ -1,0 +1,80 @@
+.collection-container {
+  display: grid;
+  gap: 30px;
+  margin: 20px 0;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+.collection-title {
+  grid-column: span 5;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: #ff4d4d;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.artwork-card {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.artwork-card:hover {
+  transform: translateY(-10px);
+}
+
+.artwork-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.artwork-info {
+  padding: 15px;
+}
+
+.artwork-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.artwork-object-name,
+.artwork-department {
+  font-size: 1em;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.view-details {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px;
+  transition: color 0.3s ease;
+  background-color: #000000;
+}
+
+.view-details:hover {
+  color: #bc1313;
+  background-color: #ddd;
+}
